@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Nombre - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .item {
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Tu Nombre</h1>
+        <p>Fotógrafo, Filmmaker y Animador 2D/3D</p>
+    </header>
+
+    <section>
+        <h2>Portafolio</h2>
+        <div class="gallery">
+            <!-- Ejemplo de imagen -->
+            <div class="item">
+                <img src="ruta_de_tu_imagen.jpg" alt="Descripción de la imagen">
+            </div>
+
+            <!-- Ejemplo de video (puedes usar servicios como YouTube o Vimeo) -->
+            <div class="item">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/tu_codigo_de_video" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <!-- Puedes agregar más imágenes y videos según sea necesario -->
+        </div>
+    </section>
+
+</body>
+</html>
